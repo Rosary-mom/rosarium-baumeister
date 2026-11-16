@@ -6,6 +6,7 @@ Live: <https://rosary-mom.github.io/rosarium-baumeister/>
 ## Inhalt
 
 - `index.html` – Konzept, filter-/sortierbare Tabelle aller 40 Orte, Quellen
+- `funde-2026-11-16.html` – Funde und Referenzen vom 16.11.2026 (Garten-Sonnenuhr, Sirnau, Mainau-Rosenwochen, Landesgartenschau Rottweil 2028)
 - `orte/<slug>.html` – Baumeister-Plan v2 je Ort inkl. ARCHY-Belege
 - `impressum.html` – Credits und Lizenzhinweise (Kontaktdaten Platzhalter)
 - `assets/` – CSS, JS (Lightbox/Filter), KI-Bilder
@@ -27,4 +28,4 @@ python3 -m http.server 8765
 # http://127.0.0.1:8765/
 ```
 
-Stand: 31.10.2026 (Europe/Berlin) · Daten-Scout mit ARCHY
+Stand: 16.11.2026 (Europe/Berlin) · Daten-Scout mit ARCHY; Ortstabelle unverändert seit 31.10.2026
