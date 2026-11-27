@@ -249,3 +249,44 @@ table.orte td.name a:hover { color: var(--rose); }
   background: var(--rose); color: #fff; font-size: .7rem;
   border-radius: 4px; padding: .05rem .35rem; font-weight: 700;
 }
+
+/* 3-D-Viewer (Rot an der Rot, KI-Vision) */
+#drei-d { scroll-margin-top: 8.5rem; }
+@media (max-width: 700px) { #drei-d { scroll-margin-top: 10rem; } }
+.ki-hinweis {
+  background: #f3dde0;
+  color: var(--rose);
+  border: 1px solid var(--rose-light);
+  border-left: 4px solid var(--rose);
+  border-radius: var(--radius);
+  padding: .85rem 1.1rem;
+  margin: 0 0 1rem;
+}
+.ki-hinweis strong { font-weight: 750; }
+.model-stage {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.model-stage model-viewer {
+  display: block;
+  width: 100%;
+  height: min(70vh, 640px);
+  min-height: 320px;
+  background: var(--bg);
+  --poster-color: #f7f1e8;
+  --progress-bar-color: #9b3d4a;
+  --progress-bar-height: 3px;
+}
+.model-caption {
+  margin: 0;
+  padding: .75rem 1.1rem 1rem;
+  color: var(--muted);
+  font-size: .9rem;
+}
+.model-caption .gold { color: var(--gold); font-weight: 650; }
+@media (max-width: 600px) {
+  .model-stage model-viewer { height: 60vh; min-height: 280px; }
+}

@@ -1,7 +1,8 @@
 # Rosarium Baumeister
 
 Statische Übersichtsseite zu den Baumeister-Visionen des Spiral-Rosariums an 40 Orten.
-Live: <https://rosary-mom.github.io/rosarium-baumeister/>
+Live: <https://rosary-mom.github.io/rosarium-baumeister/>  
+Zusätzlich auf Vercel: <https://rosarium-baumeister-q1ae.vercel.app/>
 
 ## Inhalt
 
@@ -9,7 +10,8 @@ Live: <https://rosary-mom.github.io/rosarium-baumeister/>
 - `funde-2026-11-16.html` – Funde und Referenzen vom 16.11.2026 (Garten-Sonnenuhr, Sirnau, Mainau-Rosenwochen, Landesgartenschau Rottweil 2028)
 - `orte/<slug>.html` – Baumeister-Plan v2 je Ort inkl. ARCHY-Belege
 - `impressum.html` – Credits und Lizenzhinweise (Kontaktdaten Platzhalter)
-- `assets/` – CSS, JS (Lightbox/Filter), KI-Bilder
+- `orte/rot-an-der-rot.html#drei-d` – interaktive 3-D-Ansicht (KI-Vision)
+- `assets/` – CSS, JS (Lightbox/Filter), KI-Bilder, Web-GLB
 
 ## Legende
 
@@ -19,6 +21,8 @@ Live: <https://rosary-mom.github.io/rosarium-baumeister/>
 
 - Wikipedia-Auszüge: **CC BY-SA** (Link und Attribution je Ort)
 - KI-Bilder: als **KI-Vision** gekennzeichnet, keine Bauvorlage
+- 3-D-Modell Rot an der Rot: [TRELLIS](https://github.com/microsoft/TRELLIS) (Microsoft, **MIT-Lizenz**), gekennzeichnet als **KI-Vision, Maße angenommen, kein Aufmaß**
+- 3-D-Viewer: [model-viewer](https://modelviewer.dev/) (Google, **Apache-2.0**)
 - Patent [DE10307771B4](https://patents.google.com/patent/DE10307771B4/de): verlinkt, Text nicht geprüft (U.V.)
 
 ## Lokal ansehen
@@ -28,4 +32,4 @@ python3 -m http.server 8765
 # http://127.0.0.1:8765/
 ```
 
-Stand: 16.11.2026 (Europe/Berlin) · Daten-Scout mit ARCHY; Ortstabelle unverändert seit 31.10.2026
+Stand: 27.11.2026 (Europe/Berlin) · 3-D-Ansicht Rot an der Rot ergänzt; Ortstabelle sonst unverändert seit 31.10.2026
