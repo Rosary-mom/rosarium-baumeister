@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Reichsabtei Rot an der Rot · Rosarium-Vision</title>
 <link rel="stylesheet" href="../assets/css/style.css">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt</a>
@@ -26,6 +27,44 @@
 <button type="button" class="btn-artifact" data-lightbox="../assets/img/orte/rot-an-der-rot/rosarium-KI.jpg" data-caption="KI-Vision · rosarium">🖼 rosarium</button>
 <button type="button" class="btn-artifact" data-lightbox="../assets/img/riss/rot-an-der-rot-riss-v1-KI.jpg" data-caption="KI-Vision · Riss riss-v1-KI">🖼 Riss riss-v1-KI</button>
 </div>
+
+  <section id="drei-d">
+    <h2>Rot an der Rot – 3D (KI-Vision)</h2>
+    <p class="ki-hinweis"><strong>KI-Vision, Maße angenommen, kein Aufmaß.</strong> Das Modell ist unmaßstäblich (auf Kantenlänge 1 normiert) und keine Bauvorlage. Es zeigt den runden Buchsring mit Altarstein, Kiesfläche und Steinbank – eine typologische Annahme nach Uwes Befund, nicht ein vermessenes Aufmaß.</p>
+    <div class="model-stage">
+      <model-viewer
+        src="../assets/3d/rot-an-der-rot.glb"
+        poster="../assets/3d/rot-an-der-rot-poster.jpg"
+        alt="KI-Vision des Altarstein-Beets in Rot an der Rot: runder grüner Ring, Altarstein auf Sockel in der Mitte, Steinbank östlich daneben. Maße angenommen, kein Aufmaß."
+        camera-controls
+        touch-action="pan-y"
+        auto-rotate
+        auto-rotate-delay="4000"
+        rotation-per-second="12deg"
+        shadow-intensity="0.45"
+        shadow-softness="0.8"
+        exposure="0.85"
+        environment-image="neutral"
+        camera-orbit="40deg 60deg 2.1m"
+        camera-target="0m 0.06m 0m"
+        field-of-view="30deg"
+        min-camera-orbit="auto 15deg auto"
+        max-camera-orbit="auto 89deg auto"
+        interaction-prompt="auto"
+        loading="lazy"
+        reveal="auto">
+        <noscript>
+          <img src="../assets/3d/rot-an-der-rot-poster.jpg" alt="Vorschaubild der KI-Vision, falls 3-D nicht geladen werden kann." width="1024" height="768" style="width:100%;height:auto;display:block">
+        </noscript>
+      </model-viewer>
+      <p class="model-caption">
+        Drehen und zoomen: am Desktop mit der Maus, am Telefon mit einem Finger drehen und mit zwei Fingern zoomen.
+        Modell: <span class="gold">TRELLIS</span> (Microsoft, <a href="https://github.com/microsoft/TRELLIS/blob/main/LICENSE">MIT-Lizenz</a>), fürs Web vereinfacht.
+        Viewer: <a href="https://modelviewer.dev/">model-viewer</a> (Google, Apache-2.0).
+        Hinweise auch im <a href="../impressum.html">Impressum</a>.
+      </p>
+    </div>
+  </section>
   <section>
     <h2>Baumeister-Plan (v2)</h2>
     <div class="md-body"><h1>Reichsabtei Rot an der Rot – Rot an der Rot (Baden-Württemberg) – Rosarium-Spirale v2 (Baumeister-Vision auf historischer Grundlage)</h1>
